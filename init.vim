@@ -15,7 +15,6 @@ set background=dark " dark, light
 set hidden
 set number
 set mouse=a
-set inccommand=split
 
 " -- shortcuts --
 let mapleader="\<Space>"
