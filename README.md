@@ -19,6 +19,6 @@ $ git checkout nvim
 
 - Install NVim Plugins
 ```
-: PlugInstall
+:PlugInstall
 ```
 
