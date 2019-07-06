@@ -16,6 +16,10 @@ $ cd ~/.vim
 $ git clone https://github.com/erlimar/vim-config.git .
 $ git checkout vim
 ```
+- Create `~/.vimrc` from `init.vim`
+```
+$ cp init.vim ~/.vimrc
+```
 
 - Install Plugins
 ```
