@@ -22,22 +22,3 @@ $ git checkout vim
 :PlugInstall
 ```
 
-## Setup NVim
-
-- Create NVim config directory
-```
-$ mkdir -p ~/.config/nvim
-```
-
-- Checkout GitHub config
-```
-$ cd ~/.config/nvim
-$ git clone https://github.com/erlimar/vim-config.git .
-$ git checkout nvim
-```
-
-- Install Plugins
-```
-:PlugInstall
-```
-
