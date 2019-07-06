@@ -17,7 +17,7 @@ $ git clone https://github.com/erlimar/vim-config.git .
 $ git checkout nvim
 ```
 
-- Install NVim Plugins
+- Install Plugins
 ```
 :PlugInstall
 ```
