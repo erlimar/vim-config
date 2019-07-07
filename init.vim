@@ -6,6 +6,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree'
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 " -- plugin:gruvbox settings --
