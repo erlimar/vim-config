@@ -5,6 +5,7 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'scrooloose/nerdtree'
 call plug#end()
 
 " -- plugin:gruvbox settings --
@@ -30,3 +31,4 @@ nnoremap <Leader><Right> <C-w><Right> " move to right
 nnoremap <Leader><Up> <C-w><Up>       " move to up
 nnoremap <Leader><Down> <C-w><Down>   " move to down
 nnoremap <Leader>p :Files<CR>         " open file list
+nnoremap <Leader><CR> :NERDTreeToggle<CR> " NERDTree menu
