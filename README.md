@@ -39,3 +39,5 @@ Command   | Help
 `<C-f>`   | Move to __next__ page
 `{`       | Move to __prior__ paragraph
 `}`       | Move to __next__ paragraph
+
+More on https://gist.github.com/0xadada/1ea7f96d108dcfbe75c9.
