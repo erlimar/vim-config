@@ -20,6 +20,7 @@ Command        | Help
 `?{W}`          | Find the __prior__ text `{W}` on file. Use `n` to find __next__, and `N` to find __back__
 `:q!`           | Quit and discard buffers
 `:q!`           | Quit and discard buffer
+`:! {cmd}`      | Execute the `{cmd}` external command
 `<Space-;>`     | Add `;` to end line
 `<Space-:>`     | Add `:` to end line
 `<Space-{>`     | Add `{` to end line
