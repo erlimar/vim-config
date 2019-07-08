@@ -42,8 +42,14 @@ Key       | Help
 `a`       | Append __after__ character
 `I`       | Insert __begin__ line
 `A`       | Append __end__ line
-`x`       | Delete __right__ character
-`X`       | Delete __left__ character
+`x`       | Deletes __right__ character
+`X`       | Deletes __left__ character
+`d<Right>`| Deletes __right__ character
+`d<Left>` | Deletes __left__ character
+`dw`      | Deletes the current character and the rest of the word to the __right__
+`db`      | Deletes from the beginning of the current word until before the current character
+`d0`      | Deletes from the beginning of the line until before the current character
+`d$`      | Deletes from the current character to the end of the line
 `u`       | Undo
 `<C-r>`   | Redo
 `v{move}` | Select text
