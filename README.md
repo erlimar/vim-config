@@ -18,7 +18,9 @@ $ git checkout vim-win
 ```
 
 - Create `~/_vimrc` from `init.vim`
+```
 $ copy init.vim %UserProfile%\_vimrc
+```
 
 - Install Plugins
 ```
