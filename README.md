@@ -5,6 +5,7 @@ My configurations and plugins for Vim and NVim.
 
 - [Vim](https://github.com/erlimar/vim-config/tree/vim)
 - [NVim](https://github.com/erlimar/vim-config/tree/nvim)
+- [NVim for Windows](https://github.com/erlimar/vim-config/tree/nvim-win)
 
 ## Basic Command Help
 
