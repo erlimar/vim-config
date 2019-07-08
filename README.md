@@ -20,8 +20,6 @@ Command        | Help
 `:%s/{S}/{R}`   | Replace from `{S}` to `{R}` text on all file
 `/{W}`          | Find the __next__ text `{W}` on file. Use `n` to find __next__, and `N` to find __back__
 `?{W}`          | Find the __prior__ text `{W}` on file. Use `n` to find __next__, and `N` to find __back__
-`:q!`           | Quit and discard buffers
-`:q!`           | Quit and discard buffer
 `:! {cmd}`      | Execute the `{cmd}` external command
 `<Space-;>`     | Add `;` to end line
 `<Space-:>`     | Add `:` to end line
@@ -51,10 +49,14 @@ Key       | Help
 `v{move}` | Select text
 `V`       | Select line
 `<C-v>`   | Select retangular text
-`d`       | Cut text
-`v`       | Copy text
-`p`       | Paste __after__
-`P`       | Paste __before__
+`d`       | Cut text (only Vim)
+`"+d`     | Cut text (Vim and System clipboard)
+`y`       | Copy text (only Vim)
+`"+y`     | Copy text (Vim and System clipboard)
+`p`       | Paste __after__ (only Vim)
+`"+p`     | Paste __after__ (Vim and System clipboard)
+`P`       | Paste __before__ (only Vim)
+`"+P`     | Paste __before__ (Vim and System clipboard)
 `w`       | Move to __next__ delimiter
 `W`       | Move to __next__ word
 `b`       | Move to __prior__ delimiter
