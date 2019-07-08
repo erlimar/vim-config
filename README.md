@@ -5,17 +5,20 @@ My configurations and plugins for Vim and NVim.
 
 ## Setup NVim on Windows
 
-- Create NVim config directory
+- Create Vim config directory
 ```
-$ mkdir %UserProfile%\AppData\Local\nvim
+$ mkdir %UserProfile%\vimfiles
 ```
 
 - Checkout GitHub config
 ```
-$ cd %UserProfile%\AppData\Local\nvim
+$ cd %UserProfile%\vimfiles
 $ git clone https://github.com/erlimar/vim-config.git .
-$ git checkout nvim-win
+$ git checkout vim-win
 ```
+
+- Create `~/_vimrc` from `init.vim`
+$ copy init.vim %UserProfile%\_vimrc
 
 - Install Plugins
 ```
