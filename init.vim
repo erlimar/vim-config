@@ -35,4 +35,4 @@ nnoremap <Leader><Right> <C-w><Right> " move to right
 nnoremap <Leader><Up> <C-w><Up>       " move to up
 nnoremap <Leader><Down> <C-w><Down>   " move to down
 nnoremap <Leader>p :Files<CR>         " open file list
-nnoremap <Leader><CR> :NERDTreeToggle<CR> " NERDTree menu
+nnoremap <Leader><CR> :NERDTreeToggle<CR>
