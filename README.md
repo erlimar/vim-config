@@ -30,19 +30,21 @@ Command         | Help
 
 ## Split Command Help
 
-Command         | Help
---------------- | --------
-`<Space-h>`     | Horizontal split
-`<Space-v>`     | Vertical split
-`<Space-Left>`  | Move focus to left split
-`<Space-Right>` | Move focus to right split
-`<Space-Up>`    | Move focus to up split
-`<Space-Down>`  | Move focus to down split
-`{N}<C-w>">"`   | Increases the width of the split. `eg: 20 + <C-w> + ">"`
-`{N}<C-w>"<"`   | Decreases  the width of the split. `eg: 20 + <C-w> + "<"`
-`{N}<C-w>"+"`   | Increases the height of the split. `eg: 20 + <C-w> + "+"`
-`{N}<C-w>"-"`   | Decreases  the height of the split. `eg: 20 + <C-w> + "-"`
-`<C-w>"="`      | Equalizes width and height of all split's. `eg: <C-w> + "="`
+Command            | Help
+------------------ | --------
+`<Space-h>`        | Horizontal split
+`<Space-v>`        | Vertical split
+`<Space-Left>`     | Move focus to left split
+`<Space-Right>`    | Move focus to right split
+`<Space-Up>`       | Move focus to up split
+`<Space-Down>`     | Move focus to down split
+`{N}<C-w>">"`      | Increases the width of the split. `eg: 20 + <C-w> + ">"`
+`{N}<C-w>"<"`      | Decreases  the width of the split. `eg: 20 + <C-w> + "<"`
+`{N}<C-w>"+"`      | Increases the height of the split. `eg: 20 + <C-w> + "+"`
+`{N}<C-w>"-"`      | Decreases  the height of the split. `eg: 20 + <C-w> + "-"`
+`<C-w>"="`         | Equalizes width and height of all split's. `eg: <C-w> + "="`
+`<C-wq>`, `:close` | Closes current split
+`:only`            | Closes all others split's
 
 ## Basic Edit Help
 
