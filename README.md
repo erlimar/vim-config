@@ -10,7 +10,7 @@ My configurations and plugins for Vim and NVim.
 
 ## Basic Command Help
 
-Command        | Help
+Command         | Help
 --------------- | --------
 `:w`            | Write buffer
 `:q`            | Quit buffer
@@ -25,14 +25,24 @@ Command        | Help
 `<Space-:>`     | Add `:` to end line
 `<Space-{>`     | Add `{` to end line
 `<Space-}>`     | Add `}` to begin line
+`<Space-p>`     | Open file list - `only Unix`
+`<Space-Enter>` | Tottle NERDTree menu
+
+## Split Command Help
+
+Command         | Help
+--------------- | --------
 `<Space-h>`     | Horizontal split
 `<Space-v>`     | Vertical split
 `<Space-Left>`  | Move focus to left split
 `<Space-Right>` | Move focus to right split
 `<Space-Up>`    | Move focus to up split
 `<Space-Down>`  | Move focus to down split
-`<Space-p>`     | Open file list
-`<Space-Enter>` | Tottle NERDTree menu
+`{N}<C-w>">"`   | Increases the width of the split. `eg: 20 + <C-w> + ">"`
+`{N}<C-w>"<"`   | Decreases  the width of the split. `eg: 20 + <C-w> + "<"`
+`{N}<C-w>"+"`   | Increases the height of the split. `eg: 20 + <C-w> + "+"`
+`{N}<C-w>"-"`   | Decreases  the height of the split. `eg: 20 + <C-w> + "-"`
+`<C-w>"="`      | Equalizes width and height of all split's. `eg: <C-w> + "="`
 
 ## Basic Edit Help
 
