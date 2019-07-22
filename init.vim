@@ -14,7 +14,7 @@ call plug#end()
 
 " -- plugin:gruvbox settings --
 colorscheme gruvbox
-set background=dark " dark, light
+set background=dark
 
 " -- default settings --
 set hidden
@@ -23,17 +23,16 @@ set mouse=a
 set inccommand=split
 
 " -- shortcuts --
-let mapleader="\<Space>"
+let mapleader="\\"
 
-nnoremap <Leader>; A;<ESC>            " add ; to end line
-nnoremap <Leader>: A:<ESC>            " add : to end line
-nnoremap <Leader>{ A{<ESC>            " add { to end line
-nnoremap <Leader>} I}<ESC>            " add } to begin line
-nnoremap <Leader>h :split<CR>         " horizontal split
-nnoremap <Leader>v :vsplit<CR>        " vertical split
-nnoremap <Leader><Left> <C-w><Left>   " move to left
-nnoremap <Leader><Right> <C-w><Right> " move to right
-nnoremap <Leader><Up> <C-w><Up>       " move to up
-nnoremap <Leader><Down> <C-w><Down>   " move to down
-nnoremap <Leader>p :Files<CR>         " open file list
+nnoremap <Leader>h :split<CR>
+nnoremap <Leader>v :vsplit<CR>
+nnoremap <Leader><Left> <C-w><Left>
+nnoremap <Leader><Right> <C-w><Right>
+nnoremap <Leader><Up> <C-w><Up>
+nnoremap <Leader><Down> <C-w><Down>
+nnoremap <Leader>p :Files<CR>
+nnoremap <Leader>c :close<CR>
+nnoremap <Leader>o :only<CR>
 nnoremap <Leader><CR> :NERDTreeToggle<CR>
+
