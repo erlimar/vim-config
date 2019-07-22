@@ -21,10 +21,6 @@ Command         | Help
 `/{W}`          | Find the __next__ text `{W}` on file. Use `n` to find __next__, and `N` to find __back__
 `?{W}`          | Find the __prior__ text `{W}` on file. Use `n` to find __next__, and `N` to find __back__
 `:! {cmd}`      | Execute the `{cmd}` external command
-`<Space-;>`     | Add `;` to end line
-`<Space-:>`     | Add `:` to end line
-`<Space-{>`     | Add `{` to end line
-`<Space-}>`     | Add `}` to begin line
 `<Space-p>`     | Open file list - `only Unix`
 `<Space-Enter>` | Tottle NERDTree menu
 
@@ -44,7 +40,9 @@ Command            | Help
 `{N}<C-w>"-"`      | Decreases  the height of the split. `eg: 20 + <C-w> + "-"`
 `<C-w>"="`         | Equalizes width and height of all split's. `eg: <C-w> + "="`
 `<C-wq>`, `:close` | Closes current split
+`<Space>"c"`       | Closes current split
 `:only`            | Closes all others split's
+`<Space>"o"`       | Closes all others split's
 
 ## Basic Edit Help
 
